@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="utf-8" />
+<title>骑车动画</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+<!-- 基本做法是先把一个元素切成不同的块状，例如小人的手脚都切成不同图片，然后让它们重新组合，再通过赋予不同的CSS动画来让它生动起来 -->
+<!-- 如果时间紧凑，又不像桑尼一样擅长于动画细节，可以使用一些辅助工具：Animate.css，通过直接预览选择想要的动效，然后下载它的CSS把对应的keyframe扒下来就好了（引用整个CSS是资源浪费） -->
+
+<div class="con_wrap wrap_show">
+	<div class="cloud"></div>
+    <div class="tree_wrap">
+        <span class="trees"><img src="image/tree.png"></span>
+    	<span class="trees"><img src="image/tree.png"></span>
+        <span class="trees"><img src="image/tree.png"></span>
+        <span class="trees"><img src="image/tree.png"></span>
+    </div>
+	<div class="motor_hook">        
+        <div class="motor_wrap">
+            <div class="man">
+                <div class="head"></div>
+                <div class="body"></div>
+            </div>
+            <div class="motor">
+                <div class="wheel_front"></div>
+                <div class="wheel_back"></div>
+                <div class="motor_body"></div>
+                <div class="motor_handle"></div>
+                <div class="motor_pipe">
+                	<i class="pipe"></i>
+                    <i class="smoke smoke_1"></i>
+                    <i class="smoke smoke_2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
